@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+input[type='text'],
+input[type='number'] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.expense-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.expense-list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.expense-list span {
+  flex: 1;
+  text-align: left;
+}
+
+.expense-list button {
+  background-color: #dc3545;
+  padding: 5px 10px;
+  margin-left: 10px;
+  width: auto;
+}
+
+.expense-list button:hover {
+  background-color: #c82333;
+}
